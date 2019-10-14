@@ -9,7 +9,7 @@ def map (array)
   new_array
 end
 
-def reduce (array, start=nil)
+def reduce (array, start=nil)   #copied this from the youtube video because my way was passing all tests except the 10th one ()
   count = 0
   if !start
     start = array[0]
